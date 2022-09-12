@@ -1,4 +1,3 @@
-A function that takes in a dataframe and a column name as parameters. It then queries the dataframe for rows where the column value is 0. It then drops those rows from the dataframe and returns the dataframe.
 # Bootcamp Blue - Dados
 ## Grupo 02
 ## Turma: C014
