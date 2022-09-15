@@ -93,15 +93,9 @@
         
     </p>
 
-<<<<<<< Updated upstream
-    3. Repositório criado
-    4. Primeiras hipóteses
-    5. Primeiros modelos
-    6. Inicio do relatório
-=======
     <li>Repositório criado</li>
     <li> Primeiras hipóteses</li>
     <li>Primeiros modelos</li>
     <li>Inicio do relatório</li>
     </ol>
->>>>>>> Stashed changes
+
