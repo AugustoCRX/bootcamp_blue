@@ -28,8 +28,4 @@ def clear_data(df):
     x = df.query(f"{'price'} == 0").index
     df.drop(x, inplace= True)
 
-    #Remove duplicate itens
-    index_duplicated = df[df[['category_name', 'name_clear','description_clear','date','price']].duplicated()].index
-    df = df.drop(index_duplicated, axis=0).reset_index(drop=True)
-
     return df
