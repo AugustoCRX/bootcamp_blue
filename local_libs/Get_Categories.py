@@ -10,6 +10,7 @@ import pandas as pd
 #       main_category_name: retorna uma lista com apenas os nomes das categorias principais
 #       return_first_category: retorna uma dataframe com a primeira categoria e suas respectivas contagens
 #       save_files: retorna os arquivos em fornado .csv (verificar armazenamento interno)
+#       data_type: especifica entre treino e teste, para especificar dentro dos arquivos salvos
 #
 # CategorySelector possui 3 funções, sendo que elas são:
 #
@@ -43,12 +44,13 @@ import pandas as pd
 
 class CategorySelector:
 
-    def __init__(self, main_frame = None, column = None, main_category_name = None, return_first_category = False, save_files = False):
+    def __init__(self ,main_frame = None, column = None, main_category_name = None, return_first_category = False, save_files = False, data_type = None ):
         self.main_frame = main_frame
         self.column = column
         self.main_category_name = main_category_name
         self.return_first_category = return_first_category
         self.save_files = save_files
+        self.data_type = data_type
 
     def name_and_count_category_level(column, level = int, percentage = False):
         elements = column.str.split('/')
@@ -69,9 +71,9 @@ class CategorySelector:
         else:
             return category_count, category_name
 
-    def create_files(values = dict):
+    def create_files(dataset, values = dict):
         for i in values:
-            values[i].to_csv(f'filtro_{i}.csv',sep='\t',index=False,)
+            values[i].to_csv(f'filtro_{i}_{dataset}.csv',sep='\t',index=False,)
 
 
     def get_categories(self):
@@ -93,7 +95,7 @@ class CategorySelector:
                 subcategory_dict[category_names] = self.main_frame.iloc[index]
             
             if self.save_files == True:
-                CategorySelector.create_files(subcategory_dict)
+                CategorySelector.create_files(self.data_type ,subcategory_dict)
             
             if self.return_first_category == True:
                 return first_category, subcategory_dict
@@ -118,7 +120,7 @@ class CategorySelector:
                 subcategory_dict[self.main_category_name] = self.main_frame.iloc[index]
 
                 if self.save_files == True:
-                    CategorySelector.create_files(subcategory_dict)
+                    CategorySelector.create_files(self.data_type ,subcategory_dict)
 
                 return first_category , subcategory_dict
 
@@ -137,6 +139,6 @@ class CategorySelector:
                 subcategory_dict[self.main_category_name] = self.main_frame.iloc[index]
 
                 if self.save_files == True:
-                    CategorySelector.create_files(subcategory_dict)
+                    CategorySelector.create_files(self.data_type ,subcategory_dict)
 
                 return subcategory_dict
