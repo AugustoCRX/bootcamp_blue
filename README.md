@@ -99,3 +99,14 @@
     <li>Inicio do relatório</li>
     </ol>
 
+- Sprint 2
+
+    <ol>
+    <li>Construção do discord</li>
+    <li>Construção do primeiro modelo de machine learning</li>
+    <li>Atualização dos documentos</li>
+    <li>Comprovação da primeira hipotése</li>
+    <li>Limpeza profunda dos dados</li>
+    <li>Inicio da apresentação</li>
+    </ol>
+
