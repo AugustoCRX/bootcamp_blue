@@ -6,3 +6,4 @@
     <p><a href = 'https://github.com/AugustoCRX/bootcamp_blue' target="_blank" style = 'color:blue;font-size: 20px;'>Repositório GitHub</a></p>
     <p><a href = 'https://trello.com/b/PIdIMdRK/kanban-bootcamp-sprint-1' target="_blank" style = 'color:blue;font-size: 20px;'>Trello</a></p>
     <p><a href = 'https://www.canva.com/design/DAFMtJJ9bd4/VnSrb946rJ-72Zqz_OAbhQ/edit?utm_content=DAFMtJJ9bd4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton' target="_blank" style = 'color:blue;font-size: 20px;'>Apresentação</a></p>
+    <p><a href = 'https://discord.gg/3M626Ayu' target="_blank" style = 'color:blue;font-size: 20px;'>Discord</a></p>
