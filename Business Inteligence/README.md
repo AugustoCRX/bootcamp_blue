@@ -3,6 +3,8 @@
 <ol>
 <li> 
 Seria possível realizar uma união ou remoção de categorias similares? Pensando no fato de algumas categorias serem insuficientes ou desnecessárias, podendo estas serem consideradas lixo?
+<br>
+</br>
 <ul>
     <li>
     Dentro da Hipótese da união de categorias foi analisado: 
@@ -14,6 +16,7 @@ Seria possível realizar uma união ou remoção de categorias similares? Pensan
 </li>
 <p></p>
 <li>Dentro do nome e a descrição do produto, seria possível realizar uma analise comparativa entre a quantidade de lixo, palavras relevantes e a marca dentro do preço final do produto?
+<br></br>
 <ul>
 	<li> Verificação de necessidade de trabalhar com as variáveis 'name' e 'item_description'</li>
 	<li> Essas duas variáveis não tem um padrão muito definido, o objetivo é fazer análises de NLP para conseguir criar um padrão e verificar se o modelo responde bem</li>
@@ -51,6 +54,7 @@ Seria possível realizar uma união ou remoção de categorias similares? Pensan
     No caso da coluna 'name' 1 foi considerada um nome mais acertivo
     </li>
     <ul>
+    <br></br>
 	<li>Resumindo:
      		<li>
             A coluna 'iten_description' tem uma numeração de 0 a 10, onde 0 a descrição é ruim, mal feita e 10 a descrição é bem feita.
@@ -66,7 +70,7 @@ Seria possível realizar uma união ou remoção de categorias similares? Pensan
 </ul>
 <p></p>
 <li>Data, estoque e preço são variáveis que geralmente caminham juntas e sempre possuem alguma história para contar. Esses dados poderiam explicar através de visualizações, se existe uma variação de preço devido a uma data importante, ou quais produtos venderam mais, ou se o vendedor efetua ou não o pagamento dos fretes.
-
+<br></br>
 <ul>
     <li>
     Em relação a tempo, os dados fornecem uma visão totalmente errada da realidade, comparando com o gráfico apresentado das empresas do Mercado Livre, Americanas, Submarino, Netshoes e Maganize Luiza, ele não apresenta uma sazonalidade viável, podemos dizer que eles mais parecem um exame médico do que uma sazonalidade, então podemos descartar a coluna tempo, por conta de conter dados que não irão ajudar dentro dos modelos de inteligência artificial, com isso a hipótese de sazonalidade de torna FALSA, ela não impacta em nada nos dados.
