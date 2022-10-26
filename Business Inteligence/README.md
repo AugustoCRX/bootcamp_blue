@@ -73,11 +73,11 @@ Seria possível realizar uma união ou remoção de categorias similares? Pensan
 <br></br>
 <ul>
     <li>
-    Em relação a tempo, os dados fornecem uma visão totalmente errada da realidade, comparando com o gráfico apresentado das empresas do Mercado Livre, Americanas, Submarino, Netshoes e Maganize Luiza, ele não apresenta uma sazonalidade viável, podemos dizer que eles mais parecem um exame médico do que uma sazonalidade, então podemos descartar a coluna tempo, por conta de conter dados que não irão ajudar dentro dos modelos de inteligência artificial, com isso a hipótese de sazonalidade de torna FALSA, ela não impacta em nada nos dados.
+    Em relação a tempo, os dados fornecem uma visão totalmente errada da realidade, comparando com o gráfico apresentado das empresas do Mercado Livre, Americanas, Submarino, Netshoes e Magazine Luiza, ele não apresenta uma sazonalidade viável, podemos dizer que eles mais parecem um exame médico do que uma sazonalidade, então podemos descartar a coluna tempo, por conta de conter dados que não irão ajudar dentro dos modelos de inteligência artificial, com isso a hipótese de sazonalidade de torna FALSA, ela não impacta em nada nos dados.
     </li>
     <br>
     <li>
-    Em relação ao frete, podemos concluir é bem variado em relação a categoria, temos categorias em que os produtos que são fretados pelo comprador são mais caros e temos outras que são totalmente o contrário então a hipótese pode ser concluida sendo uma contradição (contradição pode ser definida quando uma hipótese contêm saídas tanto verdadeiras como falsas)
+    Em relação ao frete, podemos concluir é bem variado em relação a categoria, temos categorias em que os produtos que são fretados pelo comprador são mais caros e temos outras que são totalmente o contrário então a hipótese pode ser concluída sendo uma contradição (contradição pode ser definida quando uma hipótese contêm saídas tanto verdadeiras como falsas)
     </li>
 </ul>
 </li>
