@@ -1,0 +1,10 @@
+.app-RadioItems{
+    font-size: 20px;
+    text-align: left;
+    position: relative;
+    padding-top: 170px;
+}
+
+.user-select-none{
+    top:5rem;
+}
