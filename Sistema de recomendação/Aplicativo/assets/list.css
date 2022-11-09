@@ -1,0 +1,45 @@
+.app-list{
+    height:300px;
+}
+
+.app-list--list1{
+    padding:0 0 0 0rem;
+    margin: 0 0 0 0rem;
+}
+
+.app-list--list2{
+    padding-left:5rem;
+}
+
+.app-list--elements{
+    text-align: left;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 2 2 2 2px;
+    color: rgb(10,10,10);
+    font-weight: bold;
+    border: solid #D6CDA4;
+    margin-left: 5px;
+    border-width: 2px;
+    padding-left: 10px;
+    padding-right: 12px;
+    padding-top: 3px;
+    padding-bottom:3px;
+    background: linear-gradient(to left, #c3d18f, #52b788);
+}
+
+.app-list--firstelements{
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 2 2 2 2px;
+    color: #52b788;
+    font-weight: bold;
+    border: rgb(11,10,10);
+    margin-left: 5px;
+    border-width: 2px;
+    padding-left: 10px;
+    padding-right: 12px;
+    padding-top: 7px;
+    padding-bottom:3px;
+    background: rgb(11,10,10);
+}

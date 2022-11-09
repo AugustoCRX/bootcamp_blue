@@ -1,0 +1,35 @@
+h2, h3, h4 {
+    font-family: Arial;
+    color: #52b788;
+    font-size: 20px
+}
+
+h1{
+    font-family: Arial;
+    color: #52b788;
+    font-size: 60px;
+    font-weight: bold;
+    text-shadow: -1px 0 #40916c, 0 1px #40916c, 1px 0 #40916c, 0 -1px #40916c;
+}
+
+body{
+    color:#52b788;
+    font-family: Arial;
+    background-color: rgb(10,10,10);
+}
+
+p{
+    color:#95d5b2;
+    padding-left: 15px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+ul{
+    color:#d8f3dc;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+

@@ -1,0 +1,16 @@
+.app-body2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.app-body2--text {
+    display: flex;
+    flex-direction: column;
+    margin:0 0 0 0rem;
+}
+
+.app-body2--graph {
+    margin:0 0 0 300px;
+    padding:0 0 0 0;
+}
+
